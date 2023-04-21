@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="Terminal icon/Terminal_icon_black.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Terminal Web</title>
+  </head>
+  <body>
+    <img
+      src="Terminal icon/Layer 1.png"
+      id="terminal-logo"
+      class="terminal-logo"
+    />
+
+    <div class="text-on-top">
+      <p>root@user</p>
+    </div>
+
+    <div class="box" id="box">
+      <canvas id="canvas" style="background: #111"></canvas>
+    </div>
+
+    <div class="terminal-box">
+      <p id="text1"></p>
+      <p id="text2"></p>
+      <p id="text3"></p>
+      <p id="text4"></p>
+      <div class="cursor"></div>
+
+      <textarea
+        type="text"
+        name="type-text"
+        id="keyboard-input"
+        class="type-text"
+        cols="1"
+        rows="1"
+        readonly
+      ></textarea>
+
+      <textarea
+        name="type-text2"
+        id="output-textarea"
+        class="output-textarea"
+        cols="1"
+        rows="1"
+        readonly
+      ></textarea>
+    </div>
+
+    <script src="Metrix_Effect JS/metrix_effect.js"></script>
+    <script src="Terminal_text.js"></script>
+    <script src="Keyboard_input File/keyboard.js"></script>
+    <script src="Help Commands JS file/help_commands.js"></script>
+  </body>
+</html>
