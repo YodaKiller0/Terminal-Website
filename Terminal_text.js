@@ -3,7 +3,7 @@
 const text1 = "root@user$: <span class='type_text'>cat welcome.text</span>";
 
 const text2 =
-  "Welcome!👏 <br> My name aruna Bandara and I'm 14 years old type <span class='whois'>'whois'</span> to see more information about me <br> My favourite hobby is to build crazy looking websites like this one😁.<hr>My portfolio is base on a terminal and I wrote it using HTML, CSS and JavaScript. <br> If you are familiar with this sort of terminal, you are welcome to use the commands, <br> Otherwise you can just type <span class='help'>'help'</span> for a list of commands. ";
+  "Welcome!👏 <br> My name Lithum Bandara and I'm 14 years old type <span class='whois'>'whois'</span> to see more information about me <br> My favourite hobby is to build crazy looking websites like this one😁.<hr>My portfolio is base on a terminal and I wrote it using HTML, CSS and JavaScript. <br> If you are familiar with this sort of terminal, you are welcome to use the commands, <br> Otherwise you can just type <span class='help'>'help'</span> for a list of commands. ";
 
 const text3 = "";
 
